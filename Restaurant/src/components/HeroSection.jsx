@@ -13,17 +13,14 @@ function HeroSection() {
             <br /><span  className=" text-[80px] md:text-[160px] ">Food</span> 
           </h1>
           {/* <h1   className="font-bold text-[120px] md:[150px]">FOOD</h1> */}
-          <p className=" text-justify md:w-[40%] lg:w-[30%] ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum optio
-            doloribus laboriosam 
-          </p>
+          
         </div>
-        <div>
+        <div className="md:block flex gap-2">
           <Link to={"/menu"}>
-            <button className="text-yellow hover:bg-slate-900 px-12 mr-8 py-3 rounded-3xl border border-solid border-white">Go</button>
+            <button className="text-white  hover:bg-red-700 hover:duration-500 px-10 mr-8 py-3 rounded-3xl border border-solid border-white">Log In</button>
           </Link>
           <Link>
-            OR MORE INFO
+            <button className="text-white  hover:bg-red-700 hover:duration-500 px-10 mr-8 py-3 rounded-3xl border border-solid border-white">Sign up</button>
           </Link>
         </div>
       </div>

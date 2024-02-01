@@ -1,8 +1,8 @@
 import React from 'react'
 
-import ContentSection from "../components/ContentSection";
+
 import HeroSection from "../components/HeroSection";
-import InfoSection from "../components/InfoSection";
+
 
 function HomePage() {
   return (
@@ -20,10 +20,10 @@ function HomePage() {
             <HeroSection />
           </div>
           <div>
-            <InfoSection />
+         
           </div>
           <div>
-            <ContentSection />
+            
           </div>
         </div>
       </div>

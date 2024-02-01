@@ -1,8 +1,9 @@
 import React from 'react'
+import ContentSection from "../components/ContentSection";
 
 function Gallery() {
   return (
-    <div>Gallery</div>
+    <div><ContentSection /></div>
   )
 }
 
